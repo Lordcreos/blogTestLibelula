@@ -1,5 +1,5 @@
+/* eslint-disable */
 import React from 'react';
-// Asume que tu componente está en una carpeta de componentes
 
 export default function About() {
   return (

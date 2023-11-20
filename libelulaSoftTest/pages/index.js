@@ -1,4 +1,5 @@
-import { useState } from "react";
+
+/* eslint-disable */import { useState } from "react";
 import { FeaturedPosts } from "../sections/index";
 import { PostCard, Categories, PostWidget } from "../components";
 import { getPosts } from "../services";

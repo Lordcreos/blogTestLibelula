@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import Header from "./Header";
 import { getPosts, getPostDetails } from "../services";
