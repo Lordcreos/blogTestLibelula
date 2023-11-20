@@ -1,9 +1,9 @@
-import React from "react";
-import Image from "next/image";
-import moment from "moment";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
+import moment from 'moment';
+import Link from 'next/link';
 
-import { grpahCMSImageLoader } from "../util";
+import { grpahCMSImageLoader } from '../util';
 
 const PostCard = ({ post }) => (
   <>
@@ -31,7 +31,7 @@ const PostCard = ({ post }) => (
             src={
               post.author.photo?.url
                 ? post.author.photo.url
-                : "https://img.freepik.com/premium-vector/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.jpg"
+                : 'https://img.freepik.com/premium-vector/anonymous-user-circle-icon-vector-illustration-flat-style-with-long-shadow_520826-1931.jpg'
             }
           />
           <p className="inline align-middle text-gray-700 ml-2 font-medium text-lg">
@@ -54,7 +54,7 @@ const PostCard = ({ post }) => (
             />
           </svg>
           <span className="align-middle">
-            {moment(post.createdAt).format("MMM DD, YYYY")}
+            {moment(post.createdAt).format('MMM DD, YYYY')}
           </span>
         </div>
       </div>

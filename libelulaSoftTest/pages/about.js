@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 // Asume que tu componente está en una carpeta de componentes
 
 export default function About() {
@@ -15,10 +15,11 @@ export default function About() {
       <h2 className="text-4xl font-bold mb-2">Leonardo Sanchez.</h2>
       <h3 className="text-3xl mb-4">Front-End Developer.</h3>
       <p className="mb-4">
-       Soy graduado en Ingeniería Informática. <br />
-       Actualmente estoy enfocado en desarrollar con JavaScript  como Full Stack Web
-        Developer. <br />
-        Me encantaba crear productos que pudieran utilizar personas en su vida diaria. <br />
+        Soy graduado en Ingeniería Informática. <br />
+        Actualmente estoy enfocado en desarrollar con JavaScript como Full Stack
+        Web Developer. <br />
+        Me encantaba crear productos que pudieran utilizar personas en su vida
+        diaria. <br />
         Abierto al trabajo y la colaboración.
       </p>
       <a
